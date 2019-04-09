@@ -1,0 +1,39 @@
+.icon-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.season-display i {
+    color: white;
+}
+
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.winter {
+    background-image: url('./ian-keefe-449093-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summer {
+    background-image: url('./sean-o-406693-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
